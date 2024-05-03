@@ -23,9 +23,9 @@ function Header() {
     }
   }, []);
   return (
-    <header className="flex items-center justify-between" ref={headerRef}>
+    <header className="flex items-center justify-between" >
       
-      <div>
+      <div ref={headerRef}>
       <div className="mb-10">
         <img
           className="lg:w-[688px] block lg:hidden"
