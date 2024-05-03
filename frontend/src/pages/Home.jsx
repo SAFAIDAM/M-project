@@ -7,6 +7,7 @@ import Testimonials from "../components/Testimonials";
 import Accourding from "../components/Accourding";
 import Blog from "../components/Blog";
 import Bnner from "../components/Bnner";
+import Cards from "../components/Cards";
 
 function Home() {
   return (
@@ -28,9 +29,12 @@ function Home() {
         <Testimonials />
         <Accourding />
         <Blog />
-        <div className="p-3 mt-24 ml-9 ">
+
+        <Cards />
+        
+        {/* <div className="p-3 mt-24 ml-9 ">
         <Bnner />
-        </div>
+        </div> */}
         
         <div>
           
