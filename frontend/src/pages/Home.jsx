@@ -5,6 +5,8 @@ import Body from "../components/Body";
 import BodyBanner from "../components/BodyBanner";
 import Testimonials from "../components/Testimonials";
 import Accourding from "../components/Accourding";
+import Blog from "../components/Blog";
+import Bnner from "../components/Bnner";
 
 function Home() {
   return (
@@ -25,6 +27,11 @@ function Home() {
         <div className="w-11/12 mt-24 ml-auto mr-auto">
         <Testimonials />
         <Accourding />
+        <Blog />
+        <div className="p-3 mt-24 ml-9 ">
+        <Bnner />
+        </div>
+        
         <div>
           
         </div>
